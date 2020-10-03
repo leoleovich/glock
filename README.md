@@ -5,7 +5,7 @@
 In case of average 3 disks lock one would have to try up to 1000 combinations to open it.
 
 But what if we take human factor into account and **assume** when owner resets the lock the **wrong** combinations are usually within ± range.  
-With this assumption we can potentially learn a code by number M number of **wrong** combinations where M is much smaller than C.
+With this assumption we can potentially learn a code by M numbers of **wrong** combinations where M is much smaller than C.
 
 Example:
 Suppose we have a lock with the passcode 309.
