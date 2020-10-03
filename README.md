@@ -1,15 +1,15 @@
 | WARNING: This tool is created for entertainment and fun purposes only. It should not be used to crack a real life locks! |
 | --- |
 
-[**C**ombination **lock**s](https://en.wikipedia.org/wiki/Combination_lock) usually have C = 10^N (where N is a number of rotating discs) combinations.
+[Combination locks](https://en.wikipedia.org/wiki/Combination_lock) usually have C = 10^N (where N is a number of rotating discs) combinations.
 In case of average 3 disks lock one would have to try up to 1000 combinations to open it.
 
-But what if we take human factor into account and **assume** when owner resets the lock the **wrong** combinations are usually within ± range.  
-With this assumption we can potentially learn a code by M numbers of **wrong** combinations where M is much smaller than C.
+But what if we take human factor into account and **assume** when owner scrambles the lock, the **wrong** (or closed) combinations are usually within ± range.  
+With this assumption we can potentially learn a code by M numbers of the **wrong** combinations where M is much smaller than C.
 
 Example:
 Suppose we have a lock with the passcode 309.
-We reset it multiple times this is the list of combinations we've got:
+We open/close it multiple times and write down resulting combinations:
 ![2020-10-03 14 21 55](https://user-images.githubusercontent.com/4749052/94992735-de198080-0583-11eb-8855-58e9e09df0bc.jpg)
 
 Now let's feed it to the tool:
